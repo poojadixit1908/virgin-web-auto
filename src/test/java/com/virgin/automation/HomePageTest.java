@@ -12,7 +12,7 @@ public class HomePageTest {
     public static void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        homePage = new HomePage(driver);
+        homePage = new HomePage(driver); //
     }
 
     @Test
